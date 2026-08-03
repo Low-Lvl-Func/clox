@@ -3,6 +3,6 @@
 
 typedef enum {
     OP_RETURN,
-  } OpCode;
+} OpCode;
 
 #endif //CLOX_CHUNK_H

@@ -1,0 +1,19 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-std=c11",
+      "-pedantic",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/stade/repos/clox",
+    "file": "/home/stade/repos/clox/src/main.c",
+    "output": "/home/stade/repos/clox/build/main.o"
+  }
+]
