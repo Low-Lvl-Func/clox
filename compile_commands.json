@@ -9,11 +9,62 @@
       "-Iinclude",
       "-c",
       "-o",
+      "build/chunk.o",
+      "src/chunk.c"
+    ],
+    "directory": "/home/stade/repos/clox",
+    "file": "/home/stade/repos/clox/src/chunk.c",
+    "output": "/home/stade/repos/clox/build/chunk.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-std=c11",
+      "-pedantic",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/debug.o",
+      "src/debug.c"
+    ],
+    "directory": "/home/stade/repos/clox",
+    "file": "/home/stade/repos/clox/src/debug.c",
+    "output": "/home/stade/repos/clox/build/debug.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-std=c11",
+      "-pedantic",
+      "-Iinclude",
+      "-c",
+      "-o",
       "build/main.o",
       "src/main.c"
     ],
     "directory": "/home/stade/repos/clox",
     "file": "/home/stade/repos/clox/src/main.c",
     "output": "/home/stade/repos/clox/build/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-std=c11",
+      "-pedantic",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/memory.o",
+      "src/memory.c"
+    ],
+    "directory": "/home/stade/repos/clox",
+    "file": "/home/stade/repos/clox/src/memory.c",
+    "output": "/home/stade/repos/clox/build/memory.o"
   }
 ]
