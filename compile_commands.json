@@ -66,5 +66,22 @@
     "directory": "/home/stade/repos/clox",
     "file": "/home/stade/repos/clox/src/memory.c",
     "output": "/home/stade/repos/clox/build/memory.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-std=c11",
+      "-pedantic",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/value.o",
+      "src/value.c"
+    ],
+    "directory": "/home/stade/repos/clox",
+    "file": "/home/stade/repos/clox/src/value.c",
+    "output": "/home/stade/repos/clox/build/value.o"
   }
 ]
