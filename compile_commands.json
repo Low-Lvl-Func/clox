@@ -83,5 +83,22 @@
     "directory": "/home/stade/repos/clox",
     "file": "/home/stade/repos/clox/src/value.c",
     "output": "/home/stade/repos/clox/build/value.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-std=c11",
+      "-pedantic",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/vm.o",
+      "src/vm.c"
+    ],
+    "directory": "/home/stade/repos/clox",
+    "file": "/home/stade/repos/clox/src/vm.c",
+    "output": "/home/stade/repos/clox/build/vm.o"
   }
 ]
