@@ -45,7 +45,7 @@ static InterpretResult run() {
             printValue(*slot);
             printf(" ]");
         }
-        printf("ssss\n");
+        printf("\n");
         disassembleInstruction(vm.chunk,
                                (int)(vm.ip - vm.chunk->code));
 #endif
