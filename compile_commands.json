@@ -26,6 +26,23 @@
       "-Iinclude",
       "-c",
       "-o",
+      "build/compiler.o",
+      "src/compiler.c"
+    ],
+    "directory": "/home/stade/repos/clox",
+    "file": "/home/stade/repos/clox/src/compiler.c",
+    "output": "/home/stade/repos/clox/build/compiler.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-std=c11",
+      "-pedantic",
+      "-Iinclude",
+      "-c",
+      "-o",
       "build/debug.o",
       "src/debug.c"
     ],
@@ -66,6 +83,23 @@
     "directory": "/home/stade/repos/clox",
     "file": "/home/stade/repos/clox/src/memory.c",
     "output": "/home/stade/repos/clox/build/memory.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-std=c11",
+      "-pedantic",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/scanner.o",
+      "src/scanner.c"
+    ],
+    "directory": "/home/stade/repos/clox",
+    "file": "/home/stade/repos/clox/src/scanner.c",
+    "output": "/home/stade/repos/clox/build/scanner.o"
   },
   {
     "arguments": [
