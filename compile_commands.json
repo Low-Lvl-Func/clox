@@ -94,6 +94,23 @@
       "-Iinclude",
       "-c",
       "-o",
+      "build/object.o",
+      "src/object.c"
+    ],
+    "directory": "/home/stade/repos/clox",
+    "file": "/home/stade/repos/clox/src/object.c",
+    "output": "/home/stade/repos/clox/build/object.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-std=c11",
+      "-pedantic",
+      "-Iinclude",
+      "-c",
+      "-o",
       "build/scanner.o",
       "src/scanner.c"
     ],
