@@ -1,0 +1,6 @@
+var a = 123;
+if (a == 123) {
+  print "yes";
+} else {
+  print "no";
+}
