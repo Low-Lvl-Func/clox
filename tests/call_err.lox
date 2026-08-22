@@ -1,0 +1,2 @@
+var notAFunction = 123;
+notAFunction();
