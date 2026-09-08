@@ -1,0 +1,7 @@
+super.nothing(); // Outside class.
+
+class A {
+  method() {
+    super.nothing(); // In class with no superclass.
+  }
+}
