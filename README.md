@@ -1,2 +1,4 @@
 # clox
-Crafting Interpreters bytecode virtual machine
+Crafting Interpreters' bytecode VM
+
+
